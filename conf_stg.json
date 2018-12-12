@@ -1,0 +1,21 @@
+{
+    "apiHost":"59.111.97.2084:16667",
+    "apiExternalDosUrl": "http://59.111.97.2084:16667",
+    "logLevel":"DEBUG",
+    "logFileFullName":"/var/log/jinjiechengcheckout/common-checkout.log",
+    "logBackups":10,
+    "logMaxSize":2048000,
+    "mqHost":"127.0.0.1",
+    "mqPort":8092,
+    "mysqlUser":"jin",
+    "mysqlPass":"jiecheng",
+    "mysqlDB":"jinjiecheng_checkout",
+    "mysqlHost":"127.0.0.1",
+    "loginModuleHost":"127.0.0.1",
+    "loginModuleProtocol":"http",
+    "loginModulePort":18091,
+    "elasticUrl": "127.0.0.1:9200",
+    "elasticLogLevel":"trace",
+    "indexOrderTenants":"['jjc']",
+    "maxAge":2592000
+}

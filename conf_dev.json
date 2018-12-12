@@ -1,0 +1,21 @@
+{
+    "apiHost":"127.0.0.1:8080",
+    "apiExternalDosUrl": "http://127.0.0.1:8080",
+    "logLevel":"DEBUG",
+    "logFileFullName":"../checkout.log",
+    "logBackups":10,
+    "logMaxSize":2048000,
+    "mqHost":"127.0.0.1",
+    "mqPort":8092,
+    "mysqlUser":"mg",
+    "mysqlPass":"missiongreen",
+    "mysqlDB":"mg",
+    "mysqlHost":"127.0.0.1",
+    "loginModuleHost":"127.0.0.1",
+    "loginModulePort":8091,
+    "loginModuleProtocol":"http",
+    "elasticUrl": "127.0.0.1:9200",
+    "elasticLogLevel":"trace",
+    "indexOrderTenants":"['jjc']",
+    "maxAge":0
+}

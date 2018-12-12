@@ -1,0 +1,35 @@
+{
+  "name": "restify-mg",
+  "version": "0.0.1",
+  "description": "mission green core rest api",
+  "main": "main.js",
+  "dependencies": {
+    "assert-plus": "*",
+    "bunyan": "*",
+    "log4js": "*",
+    "mysql": "*",
+    "restify": "4.0.3",
+    "restify-errors" :"4.2.1",
+    "mp-common-util" : "https://github.com/mpinc/common-util.git#master",
+    "mp-es-util" : "https://github.com/mpinc/es-util.git#master",
+    "alipay" : "https://github.com/mpinc/alipay.git#master",
+    "seq": "0.3.5",
+    "posix-getopt": "1.0.0",
+    "superagent" :"1.8.0",
+    "supertest": "*",
+    "serializer" : "*",
+    "async": "2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*",
+    "grunt": "^0.4.5",
+    "grunt-replace": "*"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha test"
+  },
+  "author": "Jie Zou",
+  "license": ""
+}

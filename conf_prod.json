@@ -1,0 +1,21 @@
+{
+    "apiHost":"39.105.213.26:16667",
+    "apiExternalDosUrl": "http://39.105.213.26:16667",
+    "logLevel":"DEBUG",
+    "logFileFullName":"/var/log/jinjiechengcheckout/common-checkout.log",
+    "logBackups":10,
+    "logMaxSize":2048000,
+    "mqHost":"127.0.0.1",
+    "mqPort":8092,
+    "mysqlUser":"checkout",
+    "mysqlPass":"Mission94539",
+    "mysqlDB":"common_checkout",
+    "mysqlHost":"rds8ys63039798x4d7w1.mysql.rds.aliyuncs.com",
+    "loginModuleHost":"39.105.213.26",
+    "loginModuleProtocol":"http",
+    "loginModulePort":18091,
+    "elasticUrl": "elasticsearch.pinmudo.com:9200",
+    "elasticLogLevel":"info",
+    "indexOrderTenants":"['jjc']",
+    "maxAge":2592000
+}
